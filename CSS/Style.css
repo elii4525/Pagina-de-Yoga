@@ -1,3 +1,19 @@
+.cuerpo {
+    background-color: blanchedalmond;
+}
+
+.text {
+    text-align: center;
+    font-size: 34px;
+    line-height: 5;
+}
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
 header{
     text-align: center;
 }
@@ -52,4 +68,11 @@ h1 {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 5px 10px #ccc;
+}
+
+footer {
+    text-align: center;
+    font-size: 19px;
+    background-color: rgb(179, 155, 124);
+    padding: 50px;
 }
